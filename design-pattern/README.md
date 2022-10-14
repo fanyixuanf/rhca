@@ -27,31 +27,38 @@
   <tr>
     <th>类型</th>
     <th>模式</th>
+    <th>En</th>
     <th>作用</th>
   </tr>
   <tr>
     <td rowspan="6">创建型</td>
     <td >简单工厂模式</td>
-    <td >简单工厂模式</td>
+    <td ></td>
+    <td >不属于GoF</td>
   </tr>
   <tr>
     <td>工厂方法模式</td>
+    <td >Factory Method</td>
     <td>工厂方法模式</td>
   </tr>
   <tr>
     <td>抽象工厂模式</td>
+    <td ></td>
     <td>抽象工厂模式</td>
   </tr>
   <tr>
       <td>单例模式</td>
+      <td ></td>
       <td>保证一个类仅有一个实例，并提供一个访问它的全局访问点。</td>
   </tr>
   <tr>
       <td>原型模式</td>
+      <td ></td>
       <td>原型模式</td>
   </tr>
   <tr>
       <td>建造者模式</td>
+      <td ></td>
       <td>建造者模式</td>
   </tr>
 </table>
