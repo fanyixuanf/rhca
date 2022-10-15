@@ -49,15 +49,24 @@
 
 #### 包含, 扩展, 泛化
 - 包含关系
+  - ![img.png](img/baohan.png)
 - 扩展关系
+  - ![img.png](img/kuozhan.png)
 - 泛化关系
+  - ![img.png](img/fanhua-yongli.png)
+
 
 ### 类与对象
 - 依赖关系
+  - ![img.png](img/yilai.png)
 - 泛化关系
+  - ![img.png](img/fanhua.png)
 - 关联关系
+  - ![img.png](img/img.png)
 - 聚合关系
+  - ![img.png](img/juhe.png)
 - 组合关系
+  - ![img.png](img/zuhe.png)
 - 实现关系
-
+  - ![img.png](img/shixian.png)
 
