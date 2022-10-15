@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../garavel/.idea/garavel.iml" filepath="$PROJECT_DIR$/../garavel/.idea/garavel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rhca.iml" filepath="$PROJECT_DIR$/.idea/rhca.iml" />
     </modules>
   </component>
