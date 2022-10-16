@@ -1,2 +1,2 @@
-### design-pattern
+### Design Pattern
 ### OOA-UML
