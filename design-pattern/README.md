@@ -76,9 +76,9 @@
   </tr>
   <tr>
     <td rowspan="6">创建型</td>
-    <td >简单工厂模式</td>
-    <td >Simple Factory</td>
-    <td >(不属于GoF)通过专门定义一个类来负责创建其他类的实例，被创建的实例通常都具有共同的父类</td>
+    <td>简单工厂模式</td>
+    <td>Simple Factory</td>
+    <td>(不属于GoF)通过专门定义一个类来负责创建其他类的实例，被创建的实例通常都具有共同的父类</td>
     <td >---</td>
     <td >---</td>
   </tr>
