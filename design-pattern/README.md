@@ -19,7 +19,7 @@
   - 类的数量大, 复杂
 - 抽象工厂
   - 产品族,产品等级
-  - ![](images/abstractfactory.svg)
+  - ![abstractfactory](images/abstractfactory.svg)
 - 单例
   - 保证一个类只有一个对象,被其他模块使用
   - 只能有一个实例的时候使用
