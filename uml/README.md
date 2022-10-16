@@ -63,7 +63,7 @@
   - 父子关系
 
 - 案例
-- ![img.png](img/guanxitu.png)
+- ![img.png](img/guanxi.svg)
   - 车的类图结构为abstract, 表示车是一个抽象类;
   - 它有两个继承类: 汽车和自行车; 它们之间的关系为实现关系;
   - 汽车与SUV之间也是继承关系，它们之间的关系为泛化关系;
@@ -93,5 +93,3 @@
 - 实现关系
   - ![img.png](img/shixian.png)
   - 接口与类的关系
-
-![111](img/test.drawio)
