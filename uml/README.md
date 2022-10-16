@@ -53,13 +53,13 @@
 
 #### 包含, 扩展, 泛化(箭头指向共性部分)
 - 包含关系
-    - ![img.png](img/baohan.png)
+    - ![img.png](img/baohan.svg)
     - 公共部分,每次都用到
 - 扩展关系
-  - ![img.png](img/kuozhan.png)
+  - ![img.png](img/kuozhan.svg)
   - 有时用,有时不用
 - 泛化关系
-  - ![img.png](img/fanhua-yongli.png)
+  - ![img.png](img/fanhua-yongli.svg)
   - 父子关系
 
 - 案例
@@ -76,20 +76,20 @@
 
 ### 类与对象
 - 依赖关系
-  - ![img.png](img/yilai.png)
+  - ![img.png](img/yilai.svg)
   - 一个事物发生变化影响另一个事物
 - 泛化关系
-  - ![img.png](img/fanhua.png)
+  - ![img.png](img/fanhua.svg)
   - 特殊(子)/一般(父)关系
 - 关联关系
-  - ![img.png](img/img.png)
+  - ![img.png](img/guanlian.svg)
   - 描述一组链, 链是对象之间的链接
 - 聚合关系
-  - ![img.png](img/juhe.png)
+  - ![img.png](img/juhe.svg)
   - 整体与部分生命周期不同(汽车/轮子)
 - 组合关系
-  - ![img.png](img/zuhe.png)
+  - ![img.png](img/zuhe.svg)
   - 整体与部分生命周期相同(公司/部门)
 - 实现关系
-  - ![img.png](img/shixian.png)
+  - ![img.png](img/shixian.svg)
   - 接口与类的关系
