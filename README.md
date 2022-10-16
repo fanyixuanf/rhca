@@ -1,3 +1,3 @@
 ### [Design Pattern](/design-pattern/README.md)
-### OOA-UML
-### Programming
+### [OOA-UML](/uml/README.md)
+### [Programming](/programming/README.md)
