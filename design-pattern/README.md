@@ -14,6 +14,7 @@
 
 - 简单工厂
   - 违背开闭原则
+  - ![simpleFactory](images/simpleFactory.svg)
 - 工厂方法
   - 简单工厂 + 开闭原则
   - 类的数量大, 复杂

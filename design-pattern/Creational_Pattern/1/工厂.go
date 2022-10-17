@@ -8,19 +8,7 @@
 */
 package main
 
-type Fruit struct {
 
-}
-
-func NewFruit(name string) *Fruit{
-	f := new(Fruit)
-	if name == "apple" {
-
-	} else if name == "banana" {
-
-	}
-	return f
-}
 
 func main() {
 
