@@ -50,29 +50,29 @@ func (b2 *ProductB2) CreateB() {
 	fmt.Println("CreateB 2....")
 }
 
-type Factory1 struct {}
+type ConcreteFactory1 struct {}
 
-func (f1 *Factory1) CreateProductA() AbstractProductA {
+func (f1 *ConcreteFactory1) CreateProductA() AbstractProductA {
 	var a AbstractProductA
 	a = new(ProductA1)
 	return a
 }
 
-func (f1 *Factory1) CreateProductB() AbstractProductB {
+func (f1 *ConcreteFactory1) CreateProductB() AbstractProductB {
 	var b AbstractProductB
 	b = new(ProductB1)
 	return b
 }
 
-type Factory2 struct {}
+type ConcreteFactory2 struct {}
 
-func (f2 *Factory2) CreateProductA() AbstractProductA {
+func (f2 *ConcreteFactory2) CreateProductA() AbstractProductA {
 	var a AbstractProductA
 	a = new(ProductA2)
 	return a
 }
 
-func (f2 *Factory2) CreateProductB () AbstractProductB {
+func (f2 *ConcreteFactory2) CreateProductB () AbstractProductB {
 	var b AbstractProductB
 	b = new(ProductB2)
 	return b
@@ -80,13 +80,13 @@ func (f2 *Factory2) CreateProductB () AbstractProductB {
 
 func TestAbstractFactory(t *testing.T) {
 	var f1 AbstractFactory
-	f1 = new(Factory1)
+	f1 = new(ConcreteFactory1)
 	var a1 AbstractProductA
 	a1 = f1.CreateProductA()
 	a1.CreateA()
 	t.Log("-----------")
 	var f2 AbstractFactory
-	f2 = new(Factory2)
+	f2 = new(ConcreteFactory2)
 	var b2 = f2.CreateProductB()
 	b2.CreateB()
 
