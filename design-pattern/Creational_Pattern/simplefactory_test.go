@@ -6,7 +6,7 @@
 @Description:
 @Version: 1.0.0
 */
-package simplefactory
+package creation_pattern
 
 import (
 	"fmt"
