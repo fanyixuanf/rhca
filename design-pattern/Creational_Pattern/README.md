@@ -13,3 +13,4 @@
     - 只能有一个实例的时候使用
 - 原型模式
 - 建造者模式
+  - ![builder](../images/builder.svg)
