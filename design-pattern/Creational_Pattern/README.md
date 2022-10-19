@@ -5,7 +5,7 @@
 - 工厂方法
     - 简单工厂 + 开闭原则
     - 类的数量大, 复杂
-    - ![factorymethod]()
+    - ![factorymethod](../images/factorymethod.svg)
 - 抽象工厂
     - 产品族,产品等级
     - ![abstractfactory](../images/abstractfactory.svg)
