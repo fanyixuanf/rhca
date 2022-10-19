@@ -13,6 +13,6 @@
     - 保证一个类只有一个对象,被其他模块使用
     - 只能有一个实例的时候使用
 - 原型模式
-- 
+  - ![prototype](../images/prototype.svg)
 - 建造者模式
   - ![builder](../images/builder.svg)
