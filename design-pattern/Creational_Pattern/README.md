@@ -5,6 +5,7 @@
 - 工厂方法
     - 简单工厂 + 开闭原则
     - 类的数量大, 复杂
+    - ![factorymethod]()
 - 抽象工厂
     - 产品族,产品等级
     - ![abstractfactory](../images/abstractfactory.svg)
@@ -12,5 +13,6 @@
     - 保证一个类只有一个对象,被其他模块使用
     - 只能有一个实例的时候使用
 - 原型模式
+- 
 - 建造者模式
   - ![builder](../images/builder.svg)
