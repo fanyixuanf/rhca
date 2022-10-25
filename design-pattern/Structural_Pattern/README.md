@@ -4,6 +4,7 @@
     - 使用不相关类的方法
     - ![adapter](../images/adapter.svg)
 - 桥接模式
+  - ![bridge](../images/bridge.svg)
 - 组合模式
 - 装饰器模式
     - 动态的, 更灵活
