@@ -15,6 +15,7 @@
     - 复杂系统需要简单入口
     - ![facade](../images/facade.svg)
 - 享元模式
+  - ![flyweight](../images/flyweight.svg)
 - 代理模式
     - 具有额外的功能
     - 代理实现较为复杂
