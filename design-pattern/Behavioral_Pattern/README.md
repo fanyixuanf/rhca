@@ -9,6 +9,7 @@
 - 解释器
   - ![interpreter](../images/interpreter.svg)
 - 迭代器
+  - ![Iterator](../images/Iterator.svg)
 - 中介者
 - 备忘录
 - 观察者
