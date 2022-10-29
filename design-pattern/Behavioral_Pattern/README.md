@@ -29,3 +29,4 @@
     - 定义好流程, 只负责调用
     - ![template method](../images/templatemethod.svg)
 - 访问者
+  - ![visitor](../images/visitor.svg)
