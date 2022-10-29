@@ -16,6 +16,7 @@
   - ![memento](../images/memento.svg)
 - 观察者
     - 存在循环依赖
+    - ![observer](../images/observer.svg)
 - 策略
     - 完全符合开闭
     - 避免多重判断
