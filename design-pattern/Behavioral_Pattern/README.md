@@ -22,9 +22,10 @@
     - 避免多重判断
     - 代码复用
     - 代码量增加
-    - 
+    - ![strategy](../images/strategy.svg)
 - 状态
   - ![state](../images/state.svg)
 - 模板方法
     - 定义好流程, 只负责调用
+    - ![]
 - 访问者
