@@ -1,9 +1,11 @@
 ### 行为型🚀️
 
 - 职责链
+  - ![chain of responsibility](../images/chainofresponsibility.svg)
 - 命令
     - 降低耦合度
     - 组合命令
+    - ![command](../images/command.svg)
 - 解释器
 - 迭代器
 - 中介者
