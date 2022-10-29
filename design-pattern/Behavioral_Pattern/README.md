@@ -13,6 +13,7 @@
 - 中介者
   - ![mediator](../images/mediator.svg)
 - 备忘录
+  - ![memento](../images/memento.svg)
 - 观察者
     - 存在循环依赖
 - 策略
