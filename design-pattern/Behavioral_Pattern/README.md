@@ -11,6 +11,7 @@
 - 迭代器
   - ![Iterator](../images/Iterator.svg)
 - 中介者
+  - ![mediator](../images/mediator.svg)
 - 备忘录
 - 观察者
     - 存在循环依赖
