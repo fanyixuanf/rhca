@@ -6,6 +6,6 @@
 
 ### [Git🚀️](https://github.com/fanyixuanf/learningGit)
 
-### [Database👀️](/database/database.pdf)
+### [Database👀️](/database/README.md)
 
-### [软件架构设计❤️](ca.pdf)
+### [Software Architecture Design❤️](ca.pdf)
