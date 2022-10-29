@@ -27,5 +27,5 @@
   - ![state](../images/state.svg)
 - 模板方法
     - 定义好流程, 只负责调用
-    - ![]
+    - ![template method](../images/templatemethod.svg)
 - 访问者
