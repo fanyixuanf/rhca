@@ -1,6 +1,12 @@
 ## 结构化编程(Structured Programming)
+- 结构化编程对程序控制权的直接转移进行了限制和规范
+
 ## 函数式编程(Functional Programming)
+- 函数式编程对程序中的赋值进行了限制和规范
+
 ## 面向对象编程(OOP:Object-Oriented Programming)
+- 面向对象编程对程序控制权的间接转移进行了限制和规范
+
 ## 面向切面编程(AOP:Aspect Oriented Programming)
 - AOP可以说是OOP (Object-Oriented Programming,面向对象编程)的补充和完善
 ### 实现AOP的技术，主要分为两大类:
