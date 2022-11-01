@@ -9,3 +9,5 @@
 ### [Database👀️](/database/README.md)
 
 ### [Software Architecture Design❤️](ca.pdf)
+
+### [Algorithms :stuck_out_tongue_winking_eye: ](/algorithms/README.md)
