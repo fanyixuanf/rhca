@@ -12,4 +12,5 @@
 
 ### [Algorithms :stuck_out_tongue_winking_eye: ](/algorithms/README.md)
 
-### [Markdown emoji :heart: ](/markdown/README.md)
+### [Markdown Emoji :heart: ](/markdown/README.md)
+
