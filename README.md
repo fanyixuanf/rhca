@@ -1,16 +1,15 @@
-### [Design Pattern :tada:](/design-pattern/README.md)
+### [Design Pattern:tada:](/design-pattern/README.md)
 
 ### [OOA-UML🚀️](/uml/README.md)
 
 ### [Programming👀️](/programming/README.md)
 
-### [Git :honeybee: ](https://github.com/fanyixuanf/learningGit)
+### [Git:honeybee:](https://github.com/fanyixuanf/learningGit)
 
-### [Database :girl: ](/database/README.md)
+### [Database:girl: ](/database/README.md)
 
 ### [Software Architecture Design❤️](ca.pdf)
 
-### [Algorithms :stuck_out_tongue_winking_eye: ](/algorithms/README.md)
+### [Algorithms:stuck_out_tongue_winking_eye: ](/algorithms/README.md)
 
-### [Markdown Emoji :heart: ](/markdown/README.md)
-
+### [Markdown Emoji😄](/markdown/README.md)
