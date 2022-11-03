@@ -20,7 +20,7 @@
 - 图
 - 并查集
 - 布隆过滤器
-- 切片vs数组(golang)
+- [切片vs数组(golang)](slice/slice_test.go)
 
 ### 算法主题
 - 数学

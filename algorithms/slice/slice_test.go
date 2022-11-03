@@ -54,3 +54,23 @@ func testArrayPoint(a *[2]int) {
 	fmt.Printf("func Array : %p , %v\n", a, *a)
 	(*a)[1] += 100
 }
+
+// 切片：切片是数组的一个引用，因此切片是引用类型。但自身是结构体，值拷贝传递。
+/**
+
+slice 0xc0000103c0, [1 2 3 4 5 6]
+slice 0xc0000103c0, [1 2 3 4 5 6]
+test Slice: 0xc0000103c0, [1 2 3 4 5 6]
+
+ */
+func TestSlice(t *testing.T) {
+	slice := []int{1,2,3,4,5,6}
+	fmt.Printf("slice %p, %v\n", slice, slice)
+	c := slice
+	fmt.Printf("slice %p, %v\n", c, c)
+	testSlice(c)
+}
+
+func testSlice(s []int) {
+	fmt.Printf("test Slice: %p, %v\n", s, s)
+}
