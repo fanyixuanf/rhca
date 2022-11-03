@@ -74,3 +74,28 @@ func TestSlice(t *testing.T) {
 func testSlice(s []int) {
 	fmt.Printf("test Slice: %p, %v\n", s, s)
 }
+
+/**
+
+sa 0xc000016240, [1 2 3 4], cap: 4, len: 4
+sa 0xc000014380, [1 2 3 4 5], cap: 8, len: 5
+sb 0xc000014380, [1 2 3 4], cap: 8, len: 4
+sa 0xc000014380, [1 2 3 4 5], cap: 8, len: 5
+sa 0xc000014380, [1 2 4 5], cap: 8, len: 4
+
+ */
+func TestSlice2(t *testing.T) {
+	var sa = []int{1, 2, 3, 4}
+	fmt.Printf("sa %p, %v, cap: %d, len: %d\n", sa, sa, cap(sa), len(sa))
+	// 添加元素在后面
+	sa = append(sa, 5)
+	fmt.Printf("sa %p, %v, cap: %d, len: %d\n", sa, sa, cap(sa), len(sa))
+	// 删除最后一个元素个sb
+	sb := sa[:len(sa) - 1]
+	fmt.Printf("sb %p, %v, cap: %d, len: %d\n", sb, sb, cap(sb), len(sb))
+	fmt.Printf("sa %p, %v, cap: %d, len: %d\n", sa, sa, cap(sa), len(sa))
+	// 删除中间元素给sc
+	sa = append(sa[:2], sa[3:]...)
+	//fmt.Printf("sc %p, %v, cap: %d, len: %d\n", sc, sc, cap(sc), len(sc))
+	fmt.Printf("sa %p, %v, cap: %d, len: %d\n", sa, sa, cap(sa), len(sa))
+}
