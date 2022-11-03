@@ -39,3 +39,22 @@ func TestStack(t *testing.T) {
 	fmt.Printf("出栈3, %v\n", a)
 
 }
+
+func TestPush(t *testing.T) {
+	fmt.Printf("stack : %v\n", stack)
+	push(1)
+	fmt.Printf("stack+ : %v\n", stack)
+	push(2)
+	fmt.Printf("stack+ : %v\n", stack)
+	push(3)
+	fmt.Printf("stack+ : %v\n", stack)
+	pop()
+	fmt.Printf("stack- : %v\n", stack)
+	pop()
+	fmt.Printf("stack- : %v\n", stack)
+	pop()
+	fmt.Printf("stack+ : %v\n", stack)
+	pop()
+	fmt.Printf("stack- : %v\n", stack)
+
+}
