@@ -3,13 +3,15 @@
 - golang实现
 
 ### 数据结构:yum:
-- 链表
-- 双向链表
+
+- [切片vs数组(golang)](slice/slice_test.go)
+- [栈](stack/stack.md)
 - [队列](queue/queue.md)
 - [双端队列](deque/deque.md)
-- 优先队列
-- [栈](stack/stack.md)
+- 链表
+- 双向链表
 - 堆
+- 优先队列
 - 哈希表
 - 字典树
 - 树
@@ -21,7 +23,7 @@
 - 图
 - 并查集
 - 布隆过滤器
-- [切片vs数组(golang)](slice/slice_test.go)
+
 
 ### 算法主题
 - 数学
