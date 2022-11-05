@@ -21,6 +21,7 @@ func TestPriorityQueue(t *testing.T) {
 		"B job": 2,
 		"C job": 4,
 		"D job": 1,
+		"F job": 1,
 	}
 	pq := make(PriorityQueue, len(items))
 	i := 0
