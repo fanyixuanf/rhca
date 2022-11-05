@@ -6,10 +6,11 @@
 - 链表
 - 双向链表
 - [队列](queue/queue.md)
+- [双端队列](deque/deque.md)
+- 优先队列
 - [栈](stack/stack.md)
 - 堆
 - 哈希表
-- 优先队列
 - 字典树
 - 树
   - 二叉查找树
