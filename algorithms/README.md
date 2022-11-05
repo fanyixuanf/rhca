@@ -11,7 +11,7 @@
 - 链表
 - 双向链表
 - [堆](heap/heap.md)
-- 优先队列
+- [优先队列](priority-queue/priority-queue.md)
 - 哈希表
 - 字典树
 - 树
