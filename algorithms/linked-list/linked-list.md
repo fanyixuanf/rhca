@@ -6,5 +6,6 @@
 - linear collection of data elements, in which linear order is not given by their physical placement in memory.
 - instead, each element points to the next. it is a data structure consisting of a group of nodes that together represent a sequence.
 
-- [go container/heap 参考文档](https://pkg.go.dev/container/list@go1.19.3)
-
+- 双向链表
+  - [go container/list doubly linked list 参考文档](https://pkg.go.dev/container/list@go1.19.3)
+  

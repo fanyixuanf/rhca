@@ -9,7 +9,7 @@
 - [队列](queue/queue.md)
 - [双端队列](deque/deque.md)
 - [链表](linked-list/linked-list.md)
-- 双向链表
+- [双向链表](doubly-linked-list/doubly-linked-list.md)
 - [堆](heap/heap.md)
 - [优先队列](priority-queue/priority-queue.md)
 - 哈希表
