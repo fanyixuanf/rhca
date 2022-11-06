@@ -8,7 +8,7 @@
 - [栈](stack/stack.md)
 - [队列](queue/queue.md)
 - [双端队列](deque/deque.md)
-- 链表
+- [链表](linked-list/linked-list.md)
 - 双向链表
 - [堆](heap/heap.md)
 - [优先队列](priority-queue/priority-queue.md)
