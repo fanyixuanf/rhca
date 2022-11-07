@@ -29,3 +29,17 @@ func TestDoublyLinkedList(t *testing.T) {
 	}
 	fmt.Printf("List: %v\n", l)
 }
+
+func TestMyDoublyLinkedList(t *testing.T) {
+	myl := New()
+	fmt.Printf("myl : %v\n", myl)
+	e1 := myl.PushBack(11)
+	e2 := myl.PushFront("e2")
+	myl.InsertBefore("e3", e1)
+	myl.InsertAfter("e4", e2)
+
+	for e := myl.Front(); e != nil; e = e.Next() {
+		fmt.Printf("myl element: %v\n", e.value)
+	}
+	fmt.Printf("myl : %v\n", myl)
+}
