@@ -12,7 +12,7 @@
 - [双向链表](doubly-linked-list/doubly-linked-list.md)
 - [堆](heap/heap.md)
 - [优先队列](priority-queue/priority-queue.md)
-- 哈希表
+- [哈希表(散列)](hash-table/hash-table.md)
 - 字典树
 - 树
   - 二叉查找树
