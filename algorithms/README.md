@@ -13,7 +13,7 @@
 - [堆](heap/heap.md)
 - [优先队列](priority-queue/priority-queue.md)
 - [哈希表(散列)](hash-table/hash-table.md)
-- 字典树
+- [字典树](trie/trie.md)
 - 树
   - 二叉查找树
   - AVL树
