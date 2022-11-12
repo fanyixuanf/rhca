@@ -12,5 +12,7 @@
 
 ### [Algorithms:stuck_out_tongue_winking_eye: ](/algorithms/README.md)
 
+### [QA:thumbsup:](/qa/qa.md)
+
 ### Other😄
   - ### [Markdown Emoji😄](/markdown/README.md)
