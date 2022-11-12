@@ -225,3 +225,6 @@
   </tr>
 </table>
 </escape>
+
+### 设计模式之间的关系
+![设计模式之间的关系](/images/guanxi.svg)
