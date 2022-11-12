@@ -11,6 +11,7 @@
 - 合成复用原则(Composite Reuse Principle)：如果使用继承，会导致父类的任何变换都可能影响到子类的行为。如果使用对象组合，就降低了这种依赖关系。对于继承和组合，优先使用组合。
 
 ### [创建型🚀️](Creational_Pattern/README.md)
+
 - 简单工厂
 - 工厂方法
 - 抽象工厂
@@ -19,6 +20,7 @@
 - 建造者模式
 
 ### [结构型🚀️](Structural_Pattern/README.md)
+
 - 适配器模式
 - 桥接模式
 - 组合模式
@@ -28,6 +30,7 @@
 - 代理模式
 
 ### [行为型🚀️](Behavioral_Pattern/README.md)
+
 - 职责链
 - 命令
 - 解释器
@@ -227,4 +230,5 @@
 </escape>
 
 ### 设计模式之间的关系
-![设计模式之间的关系](/images/guanxi.svg)
+
+![设计模式之间的关系](./images/relations.svg)
