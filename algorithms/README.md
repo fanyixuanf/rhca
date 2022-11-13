@@ -80,7 +80,7 @@
 - 排序
   - [冒泡排序](bubbleSort/bubbleSort.md)
   - 选择排序
-  - 插入排序
+  - [插入排序](insertionSort/insertionSort.md)
   - 堆排序
   - 归并排序
   - [快速排序 - in-place (原地) 和 non-in-place 版本](quickSort/quickSort.md)
