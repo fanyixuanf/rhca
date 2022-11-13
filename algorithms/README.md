@@ -83,7 +83,7 @@
   - 插入排序
   - 堆排序
   - 归并排序
-  - 快速排序 - in-place (原地) 和 non-in-place 版本
+  - [快速排序 - in-place (原地) 和 non-in-place 版本](quickSort/quickSort.md)
   - 希尔排序
   - 计数排序
   - 基数排序
