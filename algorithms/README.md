@@ -79,7 +79,7 @@
   - 插值搜索 - 搜索均匀分布的有序数组
 - 排序
   - [冒泡排序](bubbleSort/bubbleSort.md)
-  - 选择排序
+  - [选择排序](selectSort/selectSort.md)
   - [插入排序](insertionSort/insertionSort.md)
   - 堆排序
   - 归并排序
