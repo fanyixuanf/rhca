@@ -82,7 +82,7 @@
   - [冒泡排序](bubbleSort/bubbleSort.md)
   - [选择排序](selectSort/selectSort.md)
   - [插入排序](insertionSort/insertionSort.md)
-  - 堆排序
+  - [堆排序](heapSort/heapSort.md)
   - 归并排序
   - [快速排序 - in-place (原地) 和 non-in-place 版本](quickSort/quickSort.md)
   - 希尔排序

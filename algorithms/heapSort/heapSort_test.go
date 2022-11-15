@@ -9,15 +9,12 @@
 package heapSort
 
 import (
-	"container/heap"
 	"fmt"
-	myheap "rhca/algorithms/heap"
 	"testing"
 )
 
 func TestHeapSort(t *testing.T) {
-	//arr := []int{1, 9, 10, 30, 2, 5, 45, 8, 63, 234, 12}
-	intHeap := myheap.IntHeap{1, 9, 10, 30, 2, 5, 45, 8, 63, 234, 12}
-	heap.Init(&intHeap)
-	fmt.Println(intHeap)
+	arr := []int{1, 9, 10, 30, 2, 5, 45, 8, 63, 234, 12}
+
+	fmt.Println(HeapSort(arr))
 }

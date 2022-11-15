@@ -11,8 +11,9 @@ package heapSort
 func HeapSort(arr []int) []int {
 
 	length := len(arr)
+	heapsotMax(arr, length)
 	for i := 0; i < length; i++ {
-		last := length - 1
+		last := length - i
 		heapsotMax(arr, last)
 		if i < length {
 			arr[0], arr[last - 1] = arr[last - 1], arr[0]
