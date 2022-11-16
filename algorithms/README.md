@@ -78,7 +78,7 @@
   - 二分查找 - 搜索有序数组
   - 插值搜索 - 搜索均匀分布的有序数组
 - 排序
-  - [**插入排序 > 冒泡排序 >> 选择排序**]
+  - [**归并排序 > 插入排序 > 冒泡排序 >> 选择排序**]
   - [冒泡排序](bubbleSort/bubbleSort.md)
   - [选择排序](selectSort/selectSort.md)
   - [插入排序](insertionSort/insertionSort.md)
