@@ -86,7 +86,7 @@
   - [归并排序](mergeSort/mergeSort.md)
   - [快速排序 - in-place (原地) 和 non-in-place 版本](quickSort/quickSort.md)
   - [希尔排序](shellSort/shellSort.md)
-  - 计数排序
+  - [计数排序](countingSort/countingSort.md)
   - 基数排序
   - 拓扑排序
 - 链表
