@@ -88,6 +88,7 @@
   - [希尔排序](shellSort/shellSort.md)
   - [计数排序](countingSort/countingSort.md)
   - [基数排序](radixSort/radixSort.md)
+  - [桶排序](bucketSort/bucketSort.md)
   - 拓扑排序
 - 链表
   - 正向遍历
