@@ -87,7 +87,7 @@
   - [快速排序 - in-place (原地) 和 non-in-place 版本](quickSort/quickSort.md)
   - [希尔排序](shellSort/shellSort.md)
   - [计数排序](countingSort/countingSort.md)
-  - 基数排序
+  - [基数排序](radixSort/radixSort.md)
   - 拓扑排序
 - 链表
   - 正向遍历
