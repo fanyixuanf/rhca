@@ -14,8 +14,8 @@
 - [优先队列](priority-queue/priority-queue.md)
 - [哈希表(散列)](hash-table/hash-table.md)
 - [字典树](trie/trie.md)
-- 树
-  - 二叉查找树
+- [树](tree/tree.md)
+  - [二叉搜索树Binary Search Tree](tree/BinarySearchTree/BinarySearchTree.md)
   - AVL树
   - 红黑树
   - 线段树
