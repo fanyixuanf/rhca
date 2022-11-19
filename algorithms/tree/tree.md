@@ -21,8 +21,8 @@
   - 无序树：有序树之外的树称为无序树。
   - 森林：是n（n≥0）棵互不相交的树的集合。
 - [二叉搜索树Binary Search Tree](BinarySearchTree/BinarySearchTree.md)
-- AVL树
-- 红黑树
+- [AVL树](AVLTree/AVLTree.md)
+- [红黑树](Red–blackTree/Red–blackTree.md)
 - 线段树
 - 树状数组
 
