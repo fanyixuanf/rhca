@@ -34,7 +34,23 @@ func NewBST() *BinarySearchTree {
 }
 
 // insert
-func (t *BinarySearchTree) insert(at, new *node) {
+func (t *BinarySearchTree) Insert(key uint, val interface{}) {
+	t.lock.Lock()
+	defer t.lock.Unlock()
+	nd := new(node)
+	nd.key = key
+	nd.value = val
+	nd.left = nil
+	nd.right = nil
+	if t.root == nil {
+		t.root = nd
+	} else {
+		t.insertNode(t.root, nd)
+	}
+	t.size++
+}
+
+func (t *BinarySearchTree) insertNode(at, new *node) {
 	if new.key == at.key {
 		return
 	}
@@ -42,13 +58,42 @@ func (t *BinarySearchTree) insert(at, new *node) {
 		if at.left == nil {
 			at.left = new
 		} else {
-			t.insert(at.left, new)
+			t.insertNode(at.left, new)
 		}
 	} else {
 		if at.right == nil {
 			at.right = new
 		} else {
-			t.insert(at.right, new)
+			t.insertNode(at.right, new)
 		}
 	}
 }
+
+// Search
+func (t *BinarySearchTree)Search(key uint) *node {
+	if t.root != nil {
+		return t.searchNode(key, t.root)
+	}
+	return nil
+}
+
+func (t *BinarySearchTree) searchNode(key uint, at *node) *node {
+	if at.key == key {
+		return at
+	} else if at.key > key {
+		if at.left != nil {
+			return t.searchNode(key, at.left)
+		}
+	} else {
+		if at.right != nil {
+			return t.searchNode(key, at.right)
+		}
+	}
+	return nil
+}
+
+// 返回节点数
+func (t *BinarySearchTree) Len() uint {
+	return t.size
+}
+
