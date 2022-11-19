@@ -14,5 +14,8 @@
 
 ### [QA:thumbsup:](/qa/qa.md)
 
+### [DevOps:revolving_hearts:](/DevOps/DevOps.md)
+
 ### Other😄
-  - ### [Markdown Emoji😄](/markdown/README.md)
+
+- ### [Markdown Emoji😄](/markdown/README.md)

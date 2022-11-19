@@ -20,3 +20,32 @@ func TestTopK1(t *testing.T) {
 	fmt.Println(arr)
 
 }
+
+func TestForeach(t *testing.T) {
+
+	year := 22
+	month := 8
+	for {
+		if month <= 0 {
+			month = 12
+			year--
+		}
+		if year == 19 {
+			break
+		}
+		fmt.Println(year, "-------", month)
+		for i := year - 1; i < year + 1; i++ {
+			if i < year {
+				for j := month; j < 13; j++ {
+					fmt.Println(i, j)
+				}
+			} else if i == year {
+				for j := 1; j < month; j++ {
+					fmt.Println(i, j)
+				}
+			}
+		}
+		month--
+	}
+
+}
