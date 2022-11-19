@@ -18,8 +18,8 @@
   - [二叉搜索树Binary Search Tree](tree/BinarySearchTree/BinarySearchTree.md)
   - [AVL树](tree/AVLTree/AVLTree.md)
   - [红黑树](tree/Red–blackTree/Red–blackTree.md)
-  - 线段树
-  - 树状数组
+  - [线段树](tree/SegmentTree/SegmentTree.md)
+  - [树状数组](tree/BinaryIndexedTree/BinaryIndexedTree.md)
 - 图
 - 并查集
 - 布隆过滤器

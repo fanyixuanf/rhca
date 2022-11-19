@@ -23,8 +23,8 @@
 - [二叉搜索树Binary Search Tree](BinarySearchTree/BinarySearchTree.md)
 - [AVL树](AVLTree/AVLTree.md)
 - [红黑树](Red–blackTree/Red–blackTree.md)
-- 线段树
-- 树状数组
+- [线段树](SegmentTree/SegmentTree.md)
+- [树状数组](BinaryIndexedTree/BinaryIndexedTree.md)
 
 # 计算机科学中的树
 
