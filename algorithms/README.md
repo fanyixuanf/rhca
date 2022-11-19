@@ -21,7 +21,7 @@
   - [线段树](tree/SegmentTree/SegmentTree.md)
   - [树状数组](tree/BinaryIndexedTree/BinaryIndexedTree.md)
 - 图
-- 并查集
+- [并查集](Disjoint-SetDataStructure/Disjoint-SetDataStructure.md)
 - 布隆过滤器
 
 ### 典型算法问题:stuck_out_tongue:
