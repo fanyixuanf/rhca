@@ -18,6 +18,6 @@ func TestBinarySearchTree_Insert(t *testing.T) {
 	tree.Insert(1, "test1")
 	tree.Insert(2, "test2")
 
-	fmt.Println(tree.Search(2))
+	fmt.Println(tree.Search(2).value)
 	fmt.Println(tree.Len())
 }
