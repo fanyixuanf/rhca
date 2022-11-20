@@ -8,3 +8,4 @@
 - linked data structure that consist of a set of sequentially linked records called nodes
 - each node contains two fields, called links, that are references to the previous and to the next node in the sequence of nodes.
 
+- [code](doubly-linked-list.go)

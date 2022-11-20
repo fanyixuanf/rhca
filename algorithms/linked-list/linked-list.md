@@ -9,3 +9,4 @@
 - 双向链表
   - [go container/list doubly linked list 参考文档](https://pkg.go.dev/container/list@go1.19.3)
   
+- [code](linked-list.go)

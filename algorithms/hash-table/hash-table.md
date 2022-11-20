@@ -25,3 +25,6 @@
     - 不用指针,而是计算出要存储的槽序列
     - ![img.png](../images/hash-kaifang.png)
 - 完全散列
+
+
+- [code](hash-table.go)
