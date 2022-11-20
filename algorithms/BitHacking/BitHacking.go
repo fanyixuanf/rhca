@@ -39,3 +39,11 @@ func or() {
 	a |= 3
 	fmt.Printf("%b\n", a)
 }
+
+func xor() {
+	n, b := -12, 25
+	fmt.Println("a and b have same sign?", (n ^ b) >= 0)
+	var a byte = 0x0F
+	fmt.Printf("%08b\n", a)
+	fmt.Printf("%08b\n", ^a)
+}

@@ -23,3 +23,7 @@ func TestAnd1(t *testing.T) {
 func TestOr(t *testing.T) {
 	or()
 }
+
+func TestXor(t *testing.T) {
+	xor()
+}
