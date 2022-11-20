@@ -1,6 +1,7 @@
 # Algorithms:stuck_out_tongue_winking_eye:
 
-- golang实现
+- 参考代码均为Go
+- [位运算](BitHacking/BitHacking.md)
 
 ### 数据结构:yum:
 
