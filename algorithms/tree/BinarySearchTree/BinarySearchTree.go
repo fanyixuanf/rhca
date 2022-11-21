@@ -8,7 +8,10 @@
 */
 package BinarySearchTree
 
-import "sync"
+import (
+	"fmt"
+	"sync"
+)
 
 type node struct {
 	left, right *node
@@ -97,3 +100,78 @@ func (t *BinarySearchTree) Len() uint {
 	return t.size
 }
 
+// 中序遍历 => 左中右
+func (t *BinarySearchTree) InOrderTraversal(handler func(*node)) {
+	if t.root != nil {
+		t.inOrderTraversal(t.root, handler)
+	}
+}
+
+func (t *BinarySearchTree) inOrderTraversal(at *node, handler func(*node)) {
+	if at.left != nil {
+		t.inOrderTraversal(at.left, handler)
+	}
+	handler(at)
+	if at.right != nil {
+		t.inOrderTraversal(at.right, handler)
+	}
+}
+
+// 前序遍历 中左右
+func (t *BinarySearchTree)FrontOrderTraversal(handler func(*node)) {
+	if t.root != nil {
+		t.frontOrderTraversal(t.root, handler)
+	}
+}
+
+func (t *BinarySearchTree)frontOrderTraversal(at *node, handler func(*node)) {
+	handler(at)
+	if at.left != nil {
+		t.frontOrderTraversal(at.left, handler)
+	}
+	if at.right != nil {
+		t.frontOrderTraversal(at.right, handler)
+	}
+}
+
+// 后续遍历 左右中
+func (t *BinarySearchTree) BackOrderTraversal(handler func(*node)) {
+	if t.root != nil {
+		t.backOrderTraversal(t.root, handler)
+	}
+}
+
+func (t *BinarySearchTree)backOrderTraversal(at *node, handler func(*node)) {
+	if at.left != nil {
+		t.backOrderTraversal(at.left, handler)
+	}
+	if at.right != nil {
+		t.backOrderTraversal(at.right, handler)
+	}
+	handler(at)
+}
+
+// 打印tree
+func (t *BinarySearchTree) String() {
+	if t.root == nil {
+		fmt.Println("Tree is empty")
+		return
+	}
+	stringify(t.root, 0)
+	fmt.Println("-------------------")
+}
+
+func stringify(node *node, level int) {
+	if node == nil {
+		return
+	}
+	format := ""
+	for i := 0; i < level; i++ {
+		format += "\t"
+	}
+	format += "----[ "
+	level++
+	stringify(node.left, level)
+	fmt.Printf(format + "%d\n", node.key)
+	stringify(node.right, level)
+}
