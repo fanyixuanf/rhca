@@ -39,7 +39,12 @@
 - ### [Networks:earth_americas:](/Networks/Networks.md)
 
 ### Web:crown:
-- ###[Web](/web/web.md)
+
+- ### [Web:iphone:](/web/web.md)
+
+### Search Engines:mag:
+
+- ### [Search Engines:satellite:](/SearchEngines/SearchEngines.md)
 
 ### Tools:hammer:
 
