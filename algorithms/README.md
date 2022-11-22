@@ -1,8 +1,10 @@
 # Algorithms:stuck_out_tongue_winking_eye:
 
 - 参考代码均为Go
-- [位运算](BitHacking/BitHacking.md)
+- 复杂度细分为时间复杂度和空间复杂度，其中时间复杂度与代码的结构设计高度相关；空间复杂度与代码中数据结构的选择高度相关。
 
+
+- [位运算](BitHacking/BitHacking.md)
 ### 数据结构:yum:
 
 - [切片vs数组(golang)](slice/slice_test.go)
