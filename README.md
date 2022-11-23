@@ -46,6 +46,9 @@
 
 - ### [Search Engines:satellite:](/SearchEngines/SearchEngines.md)
 
+### Concurrency And Parallelism:running:
+- ### [Concurrency And Parallelism:dancers:](/ConcurrencyAndParallelism/ConcurrencyAndParallelism.md)
+
 ### Tools:hammer:
 
 - ### [Git:honeybee:](https://github.com/fanyixuanf/learningGit)
