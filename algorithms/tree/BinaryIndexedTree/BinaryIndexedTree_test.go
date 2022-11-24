@@ -7,3 +7,15 @@
 @Version: 1.0.0
 */
 package BinaryIndexedTree
+
+import (
+	"fmt"
+	"testing"
+)
+
+func TestBinaryIndexedTree_Init(t *testing.T) {
+	var arr = []int{2,4,6,8,10}
+	var tree BinaryIndexedTree
+	tree.Init(arr)
+	fmt.Println(tree)
+}
