@@ -26,3 +26,10 @@ func (bit *BinaryIndexedTree) Init(nums []int) {
 func lowbit(x int) int {
 	return x & -x
 }
+
+func (bit *BinaryIndexedTree) Add(index, val int) {
+	for index <= bit.capacity {
+		bit.tree[index] += val
+		index += lowbit(index)
+	}
+}
