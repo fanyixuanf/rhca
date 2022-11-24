@@ -50,6 +50,7 @@ func TestBinarySearchTree_InOrderTraversal(t *testing.T) {
 		a += fmt.Sprintf("%s\t", n.value)
 	})
 	println(a)
+	tree.String()
 }
 
 func TestBinarySearchTree_BackOrderTraversal(t *testing.T) {
@@ -69,6 +70,7 @@ func TestBinarySearchTree_BackOrderTraversal(t *testing.T) {
 		a += fmt.Sprintf("%s\t", n.value)
 	})
 	println(a)
+	tree.String()
 }
 
 func TestBinarySearchTree_FrontOrderTraversal(t *testing.T) {
