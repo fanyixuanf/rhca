@@ -127,6 +127,7 @@
     - -f用来指定Dockerfile文件位置
     - -t指定构建成功后，镜像的仓库、标签等
     - . 指定上下文路径，也表示在当前目录下
+- [Dockerfile](dockerfile.md)
 ### Docker Compose
 - Compose用于自定义运行多容器Docker应用程序的工具,大多依赖于yml文件,默认使用当前目录下的“docker-compose.yml”,可以通过-f指定.
 - docker-compose命令

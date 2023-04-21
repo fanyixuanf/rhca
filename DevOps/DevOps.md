@@ -1,6 +1,6 @@
 # DevOps
 
-- [Operating System](./OperatingSystem/linux.md)
+- [Operating System](OperatingSystem/linux.md)
 - Networking, Security and Protocols
 - Reverse Proxy
 - Forward Proxy
@@ -8,9 +8,9 @@
 - Load Balancer
 - Firewall
 - Web Server
-- CI/CD Tool
+- [CI/CD Tool](cicd/cicd.md)
 - Service Mesh
-- [Containers](./Containers/docker.md)
+- [Containers](Containers/docker.md)
 - Configuration Mgmt
 - Infrastructure Provisioning
 - Infrastructure Monitoring
