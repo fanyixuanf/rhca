@@ -75,7 +75,7 @@ docker run -d --name gitlab-runner --restart always \
 gitlab-runner register
 ```
 - 新建.gitlab.ci.yml配置文件(php demo)
-```
+```yml
 variables:
   RELEASES_STORAGE_DIR: '/var/www/$CI_COMMIT_REF_NAME/$CI_PROJECT_PATH/storage'
   CREATE_RELEASES_STORAGE_DIR: '[ -d $RELEASES_STORAGE_DIR ] || sudo mkdir -p $RELEASES_STORAGE_DIR'
@@ -163,5 +163,38 @@ deploying_dev:
     - 'eval $CLEAN_RELEASES_DIR'
   only:
     - develop
+
+```
+```yml
+before_script:
+    - date
+stages:
+    - build
+    - test
+    - deploy
+
+deploy_in_web1:
+    stage: deploy
+    script:
+        - git checkout master
+        - git pull
+        - rsync -rvz --no-owner --no-group --no-perms --progress --exclude=".*" --exclude="/vendor" --delete $CI_PROJECT_DIR/ /data/项目路径
+    only:
+        - master
+    tags:
+        - "web1"
+        
+
+#配置多台机器，新增配置即可
+deploy_in_web2:
+    stage: deploy
+    script:
+        - git checkout master
+        - git pull
+        - rsync -rvz --no-owner --no-group --no-perms --progress --exclude=".*" --exclude="/vendor" --delete $CI_PROJECT_DIR/ /data/项目路径
+    only:
+        - master
+    tags:
+        - "web2"        
 
 ```
