@@ -70,6 +70,7 @@ docker run -d --name gitlab-runner --restart always \
   -v /srv/gitlab-runner/config:/etc/gitlab-runner \
   gitlab/gitlab-runner:latest
 ```
+windows => 加入参数 --user root
 - 新注册Gitlab Runner
 ```
 gitlab-runner register
