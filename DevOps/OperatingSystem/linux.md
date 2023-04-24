@@ -200,6 +200,7 @@
 - `ssh-copy-id`
 - `ssh [-p ] user@ip`
 - `scp` 上传文件
+- 免密登录
 
 #### crontab
 - 一次性crontab
