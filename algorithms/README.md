@@ -94,8 +94,8 @@
   - [桶排序](bucketSort/bucketSort.md)
   - [拓扑排序](topologicalSort/topologicalSort.md)
 - 链表
-  - 正向遍历
-  - 反向遍历
+  - [正向遍历](list/list.md)
+  - [反向遍历](list/list.md)
 - 树
   - 深度优先搜索 (DFS)
   - 广度优先搜索 (BFS)
