@@ -4,7 +4,7 @@
 
 1. 初期架构方案选择
    - 快速实现
-   - [ALL in one架构]()
+   - [ALL in one架构](qa_1.md#allinone)
    - 技术栈二选一PHP, JAVA
    - 这个阶段研发主要在写CURD业务逻辑，引入DAO和ORM能极大提高工程效率
 
