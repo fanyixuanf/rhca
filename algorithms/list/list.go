@@ -6,24 +6,24 @@
 @Description:
 @Version: 1.0.0
 */
-package main
+package List
 
 import "fmt"
 
-type ListNode struct {
+type Node struct {
 	val int
-	Next *ListNode
+	Next *Node
 }
 
-func printList(l *ListNode) {
+func printList(l *Node) {
 	for l != nil {
 		fmt.Printf("%d", l.val)
 		l = l.Next
 	}
 }
 
-func reverseList(l *ListNode) *ListNode {
-	var prev *ListNode
+func reverseList(l *Node) *Node {
+	var prev *Node
 	for l != nil {
 		curr := l
 		l = l.Next
