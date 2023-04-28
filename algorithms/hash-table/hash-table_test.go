@@ -57,3 +57,17 @@ func TestHash(t *testing.T) {
 	fmt.Printf("%x\n", second.Sum(nil))
 	fmt.Println(bytes.Equal(first.Sum(nil), second.Sum(nil)))
 }
+
+func TestHash2(t *testing.T) {
+	h := NewHashTable(10)
+	h.Put("name", "Alice")
+	h.Put("age", 30)
+	h.Put("address", "123 Main St")
+	fmt.Println(h.Get("name"))     // Output: Alice true
+	fmt.Println(h.Get("age"))      // Output: 30 true
+	fmt.Println(h.Get("address"))  // Output: 123 Main St true
+	fmt.Println(h.Get("phone"))    // Output: <nil> false
+	fmt.Println(h.Remove("phone")) // Output: false
+	fmt.Println(h.Remove("age"))   // Output: true
+	fmt.Println(h.Get("age"))      // Output: <nil> false
+}
