@@ -49,3 +49,17 @@ func TestForeach(t *testing.T) {
 	}
 
 }
+
+func TestTopk(t *testing.T) {
+	arr := []int{5, 2, 7, 8, 4, 9, 3, 6, 1, 0}
+	k := 3
+	topKArr := topK(arr, k)
+	fmt.Printf("Top %d elements in %v: %v\n", k, arr, topKArr)
+}
+
+func TestTopk2(t *testing.T) {
+	arr := []int{5, 2, 7, 8, 4, 9, 3, 6, 1, 0}
+	k := 4
+	topKArr := topK1(arr, k)
+	fmt.Printf("Top %d elements in %v: %v\n", k, arr, topKArr)
+}
