@@ -52,6 +52,7 @@
 ### Tools:hammer:
 
 - ### [Git:honeybee:](https://github.com/fanyixuanf/learningGit)
+- ### [Configure multiple Git accounts on the same computer](/gitconfig/config.md)
 
 ### Other:sun_with_face:
 
