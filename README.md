@@ -50,7 +50,7 @@
 - ### [Concurrency And Parallelism:dancers:](/ConcurrencyAndParallelism/ConcurrencyAndParallelism.md)
 
 ### GC
-- ### [Garbage Collection]()
+- ### [Garbage Collection](/gc/gc.md)
 
 ### Tools:hammer:
 
